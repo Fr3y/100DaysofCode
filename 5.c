@@ -23,3 +23,21 @@ B. struct foo var;
 C. foo;
 D. int foo;
 */
+
+// arrays
+
+#include <stdio.h>
+int main(){
+    int f = 0;
+    int telegram[5];
+    telegram[0] = 2;
+    telegram[1] = 3;
+    telegram[2] = 4;
+    telegram[3] = 5;
+    telegram[4] = 6;
+    for(f=0 ; f<5 ; f++){
+        printf("%d\n",telegram[f]);
+    }
+    return 0;
+}
+
